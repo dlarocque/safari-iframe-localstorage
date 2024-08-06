@@ -1,12 +1,6 @@
-import './App.css';
-
 function App() {
-  window.addEventListener('storage', (event) => {
-    console.log(`MAIN storage event: ${JSON.stringify(event)}`);
-  })
-
   return (
-    <div className="App">
+    <div>
       <iframe
         title="My Iframe"
         src='http://localhost:3001/index.html'
